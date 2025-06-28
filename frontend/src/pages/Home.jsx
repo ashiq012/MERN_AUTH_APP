@@ -21,7 +21,7 @@ function Home() {
   // Protected Route
   const Protected = async () => {
     try {
-      const url = 'https://mern-auth-api-sigma.vercel.app//api/v1/protected'
+      const url = 'https://mern-auth-api-sigma.vercel.app/api/v1/protected'
       const headers = {
         headers : {
           'Authorization' : localStorage.getItem('token')
