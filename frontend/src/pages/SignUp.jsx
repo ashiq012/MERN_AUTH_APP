@@ -24,7 +24,7 @@ function SignUp() {
       return handleError('All fields are require...');
     }
     try {
-      const url = 'https://mern-auth-app-psi.vercel.app/api/v1/signup'
+      const url = 'https://mern-auth-api-sigma.vercel.app/api/v1/signup'
       const response = await fetch(url,{
         method : 'POST',
         headers : {
